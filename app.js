@@ -1,8 +1,17 @@
-var express = require('express')
-var app = express()
+var express = require('express'),
+	app = express(),
+	exphbs  = require('express-handlebars');
+
+app.engine('handlebars', exphbs({defaultLayout: 'main'}));
+app.set('view engine', 'handlebars');
+
+var port = process.env.PORT || 3000;
  
-app.get('/derp', function (req, res) {
-  res.send('Hello World')
+app.get('/', function (req, res) {
+  res.render('home');
 })
+
+app.use('/www', express.static('www'));
  
-app.listen(3000)
+app.listen(port);
+console.log("Server Active on port: ", port);

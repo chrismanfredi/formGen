@@ -1,0 +1,18 @@
+html {
+	background: green;
+}
+
+nav {
+
+}
+
+ul {
+	text-align: center;
+}
+
+li {
+	list-style-type: none;
+	color: white;
+	display: inline;
+	margin: 0 30px;
+}
