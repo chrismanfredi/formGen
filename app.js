@@ -12,6 +12,7 @@ app.get('/', function (req, res) {
 })
 
 app.use('/www', express.static('www'));
+app.use(express.static(__dirname + '/bower_components'));
  
 app.listen(port);
 console.log("Server Active on port: ", port);
