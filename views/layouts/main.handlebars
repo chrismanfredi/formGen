@@ -1,25 +1,19 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en" >
 <head>
-    <meta charset="utf-8" />
-    <title> Chris App </title>
-    <link rel="stylesheet" type="text/css" href="www/css/main.css">
+	<meta charset="UTF-8">
+	<title>Howdy World</title>
+	<link rel="stylesheet" href="master.css">
+	<link href='https://fonts.googleapis.com/css?family=Montserrat:400,700' rel='stylesheet' type='text/css'>
+	<script src="angular/angular.js"></script>
+	<script src="angular.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.2.15/angular-ui-router.js"></script>
 </head>
+<body ng-app="myApp">
+	
+	{{{ body }}}
 
-<body>
-	<h1>Boooooooop</h1>
-	<h2> Scoooooooooop </h2>
-<nav>
-	<ul>
-		<a href="/about"><li> About Me </li></a>
-		<a href="/about"><li> Social Media </li></a>
-		<a href="/about"><li> Contact Me </li></a>
-	</ul>
-</nav>
+	<ui-view></ui-view>
 
-
- 
-    {{{body}}}
- 
 </body>
 </html>

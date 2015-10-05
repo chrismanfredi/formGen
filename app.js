@@ -1,18 +1,16 @@
-var express = require('express'),
-	app = express(),
-	exphbs  = require('express-handlebars');
-
+var express 	= require('express'),
+	app 		= express(),
+	exphbs      = require('express-handlebars'),
+	port        = process.env.PORT || 3000;
+	// Environmental variable
 app.engine('handlebars', exphbs({defaultLayout: 'main'}));
 app.set('view engine', 'handlebars');
-
-var port = process.env.PORT || 3000;
+app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/bower_components'));
  
 app.get('/', function (req, res) {
   res.render('home');
-})
-
-app.use('/www', express.static('www'));
-app.use(express.static(__dirname + '/bower_components'));
+});
  
 app.listen(port);
-console.log("Server Active on port: ", port);
+console.log('Server active on port: ',port);

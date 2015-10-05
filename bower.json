@@ -1,12 +1,9 @@
 {
-  "name": "formGen",
-  "version": "0.1.0",
-  "homepage": "https://github.com/cmbaseball94/formGen",
+  "name": "NodeJs",
+  "version": "0.0.0",
+  "homepage": "https://github.com/KaseKreative/DPW",
   "authors": [
-    "Chris Manfredi <cmbaseball94@fullsail.edu>"
-  ],
-  "moduleType": [
-    "node"
+    "KaseKreative <KaseKreative@fullsail.edu>"
   ],
   "license": "MIT",
   "ignore": [
@@ -18,5 +15,8 @@
   ],
   "dependencies": {
     "angular": "~1.4.7"
-  }
+  },
+  "moduleType": [
+    "node"
+  ]
 }

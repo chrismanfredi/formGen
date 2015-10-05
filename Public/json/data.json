@@ -1,0 +1,57 @@
+[
+					{
+						"label" : "First Name",
+						"labelId" : "fNameLabel",
+						"labelClass" : "labelClass",
+						"inputType" : "text",
+						"placeholder" : "Michael",
+						"pizzaSauce" : "fName"
+					},
+					{
+						"label" : "Last Name",
+						"labelId" : "lNameLabel",
+						"labelClass" : "labelClass",
+						"inputType" : "text",
+						"placeholder" : "Perez",
+						"pizzaSauce" : "lName"
+					},	
+
+					{
+						"label" : "Email",
+						"labelId" : "emailLabel",
+						"labelClass" : "labelClass",
+						"inputType" : "text",
+						"placeholder" : "myemail@host.com",
+						"pizzaSauce" : "email"
+					},
+					{
+						"label" : "Male",
+						"labelId" : "maleLabel",
+						"labelClass" : "labelClass",
+						"inputType" : "radio",
+						"pizzaSauce" : "gender",
+						"value" : "Male",
+						"name" : "theGender",
+						"checked" : "checked"
+					},
+					{
+						"label" : "Female",
+						"labelId" : "femaleLabel",
+						"labelClass" : "labelClass",
+						"inputType" : "radio",
+						"pizzaSauce" : "gender",
+						"value" : "Female",
+						"name" : "theGender",
+						"checked" : ""
+					},
+					{
+						"inputType" : "submit",
+						"pizzaSauce" : "submitBtn",
+						"value" : "Submit"
+					},
+					{
+						"inputType" : "hidden",
+						"pizzaSauce" : "hiddenInput",
+						"placeholder" : "This is a hidden input!"
+					}	
+				]

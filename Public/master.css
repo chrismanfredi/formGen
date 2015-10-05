@@ -1,0 +1,62 @@
+body{
+	background: url("http://www.twitterevolutions.com/bgs/twitter-background-vectors.jpg") fixed no-repeat center;
+}
+
+#infoCtrl{
+	background-color: #FFF4E7;
+	width: 40%;
+	margin: 0 auto;
+	border: 5px #E89719 solid;
+	border-radius: 10px;
+	padding-bottom: 20px;
+}
+
+h1{
+	font-size: 2em;
+	font-family: 'Montserrat', sans-serif;
+	background-color: #E89719;
+	margin-top: 0;
+	border-bottom: 1px #E89719 solid;
+	text-align: center;
+	padding-top: 27px;
+	padding-bottom: 30px;
+	color: #FFF4E7;
+}
+
+label{
+	width: 73%;
+	color: #03669C;
+	display: block;
+	font-size: 1.5em;
+	margin: 0 auto;
+	font-family: 'Montserrat', sans-serif;
+}
+
+input{
+	width: 70%;
+	font-size: 1.2em;
+	display: block;
+	margin: 0 auto 10px auto;
+	padding: 5px;
+	border-radius: 5px;
+	border: 1px gray solid;
+}
+
+#submitBtn{
+	background-color: #03669C;
+	padding: 10px;
+	margin-top: 50px;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	border: none;
+	border-radius: 7px;
+	-webkit-transition: ease .5s;
+	transition: ease .5s;
+}
+
+#submitBtn:hover{
+	background-color: #33A8E8;
+	color: white;
+	-webkit-transition: ease .5s;
+	transition: ease .5s;
+}
