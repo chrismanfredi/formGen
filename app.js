@@ -11,6 +11,14 @@ app.use(express.static(__dirname + '/bower_components'));
 app.get('/', function (req, res) {
   res.render('home');
 });
+
+var http = require('http'),
+		port = 8080;
+http.createServer(function (req, res) {
+  res.writeHead(200, {'Content-Type': 'text/plain'});
+  res.end('Hello World\n');
+}).listen(port);
+console.log('Live on Port' + port);
  
 app.listen(port);
 console.log('Server active on port: ',port);
